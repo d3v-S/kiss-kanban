@@ -36,6 +36,7 @@ Wrote a minimal working kanban for tracking my projects
 
 ## Bugs:
 1. markdown css can not change font-size. IDK why?
+2. it may not find the path, then please create the folders manually. Will fix it next release. 
 
 
 ## Todo:
