@@ -1,0 +1,26 @@
+h1  {
+    font-size: 15px !important;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 14px !important;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+span, p, a, div, body, html, li, ol {
+    font-size: 11px;
+}
+
+h1, h2, h3, h4 {
+    font-family: JetBrains Mono;
+}

@@ -1,0 +1,193 @@
+QMainWindow {
+    background-color: #333;
+    min-width: 1800px;
+    min-height: 1000px;
+}
+
+/* debugging purpose */
+/* * {
+    border: 1px solid white;
+
+} */
+
+
+QLineEdit, QLabel, QPushButton{
+    min-width: 10px;
+}
+
+
+/* LEFT SIDE  CONTAINER */
+
+#container-left {
+    background-color: #444;
+    min-width: 150px;
+    max-width: 400px;
+}
+
+#label-left {
+    max-height: 25px;
+    font-family: Fira Sans; 
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    color: white;
+    padding: 2 2 2 2;
+}
+
+
+
+/* BOARD ITEM */
+#container-left-board-item {
+    min-width: 150px;
+    max-width: 400px;
+}
+
+#btn-left-board-item-del, #btn-left-board-item-edit{
+    background-color: #444;
+    width: 11px;
+    height: 11px;
+}
+
+#label-left-board-item, #line-edit-left-board-item {
+    font-family: Fira Sans;
+    font-family: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+/* ADD BOARD BUTTON */
+
+#btn-left-add-board {
+    text-align: center; /* works with QPushButtons */
+    font-family: JetBrains Mono;
+    font-size: 16px;
+    min-height: 20px;
+    color: white;
+    background-color: #444;
+    border-top: 1px solid #555;
+}
+
+/* BOARD LIST */
+#list-left-boards {
+    background-color: #444;
+    border: 1px solid #444;
+    margin-top: 15px;
+}
+
+#list-left-boards::item{
+    border-bottom: 1px solid #555;
+    color: white;
+}
+
+
+
+/* RIGHT SIDE */
+
+#container-right {
+    background-color: #222;
+}
+
+#label-right-title {
+     max-height: 25px;
+     font-size: 12px;
+     color: white;
+     padding: 2 2 2 2;
+     font-family: JetBrains Mono;
+     letter-spacing: 1px;
+     font-weight: 800;
+     border-bottom: 1px solid #555;
+}
+
+
+/* KANBAN COL LABELS */
+#label-kanban-col {
+    color: white;
+    font-family: Azeret Mono;
+    font-size: 10px;
+    letter-spacing: .9px;
+    font-weight: 500;
+    
+}
+
+/* KANBAN COL LIST */
+#list-kanban-col {
+    background-color: #222;
+    border: 5px solid #333;
+    border-radius: 10px;
+    margin-right: 1 1 1 1;
+}
+
+#list-kanban-col::item {
+    border: 3px solid #333;    
+    border-radius: 10px;
+    padding: 4px 4px 4px 4px;
+    margin-bottom: 2px;
+    background-color: #222;
+}
+
+#container-kanban-item-todo {
+    background-color: greenyellow;
+}
+
+
+/* 
+#list-left-boards::item{
+    color: #eee;
+
+    margin-bottom:4px;
+} */
+
+
+/* #list-kanban-todo {
+    background-color: green;
+}
+
+#list-kanban-in-progress {
+        background-color: green;
+}
+
+#list-kanban-completed {
+    background-color: green;
+}
+
+
+#list-kanban-blocked {
+    background-color: red;
+}
+
+
+#list-kanban-abandoned {
+    background-color: grey;
+} */
+
+
+#editor-kanban-item-task, #viewer-kanban-item-task {
+    padding: 5px 5px 5px 5px;
+    font-family: JetBrains Mono;
+    font-size: 12px;
+    letter-spacing: .9px;
+    line-height: 15px;
+    border: 5px solid #333;
+    border-radius: 20px;
+
+    background-color: #333;
+    color: white;
+    
+}
+
+#btn-kanban-item-del, #btn-kanban-item-editor{
+    color: white;
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: .7px;
+    margin: 2px;
+    background-color: #444;
+    border-bottom: 1px solid white;
+}
+
+QScrollbar {
+    max-width: 5px;
+}
+
+/* Markdown */ 

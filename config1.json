@@ -1,0 +1,16 @@
+{
+    "DIR_BASE"          : "C:\\Users\\d3v\\Desktop\\tmp\\test_kanban",
+    "FILE_STYLES_QSS"   : "C:\\Users\\d3v\\Desktop\\tmp\\test_kanban\\styles.qss",
+
+    "QSS_LEFT_TITLE_PERCENT": "5",
+    "OSS_LEFT_LIST_PERCENT": "75",
+
+    "BOARD_NAME": ["test", "todo", "in-progress", "done", "paused"],
+
+    "BGCOLORS": {"todo": "yellow", "in-progress": "greenyellow", "completed": "orange", "done":"orange", "paused":"red", "ideas":"grey", "inbox": "grey"},
+
+    "TIMEOUT_AUTOSAVE": "1000",
+
+    "MD_CSS": "C:\\Users\\d3v\\Desktop\\tmp\\test_kanban\\md.css"
+
+}
